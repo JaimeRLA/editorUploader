@@ -1,0 +1,15 @@
+requests>=2.31
+python-dotenv>=1.0
+yt-dlp[default]>=2026.8.19
+google-api-python-client>=2.200
+google-auth-oauthlib>=1.5
+google-auth-httplib2>=0.4
+# Motor local (gratuito)
+faster-whisper>=1.2.1
+# 0.10.35: las 1.x no arrancan sin aceleración OpenGL (WSL)
+mediapipe==0.10.35
+pysubs2>=1.9
+numpy>=1.26
+# cuBLAS/cuDNN para Whisper en GPU NVIDIA (se ignoran si no hay GPU)
+nvidia-cublas-cu12>=12.4
+nvidia-cudnn-cu12==9.*

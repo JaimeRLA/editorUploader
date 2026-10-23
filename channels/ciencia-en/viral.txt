@@ -1,0 +1,42 @@
+Lo más viral para «science_clips_office» (Cosas entretenida de ciencia) — 2026-10-22
+Búsquedas: Royal Society lecture; astronomy talk; science explained documentary; physics explained; science podcast; science podcasts with Neil deGrasse Tyson; science debates on climate change; documentary on quantum physics; science challenges with Bill Nye; real science stories from NASA; science interviews with Stephen Hawking; science experiments with MythBusters; science history with Brian Cox
+
+nota = 70 % viralidad (visitas/día, visitas frente a suscriptores, participación) + 30 % encaje con la temática; se descartan los de encaje < 7/10.
+
+nota  tema   visitas   vis/día  ×canal  partic.  min  título — canal   (×canal = visitas / mediana de su canal)
+  84   7/10  3,851,991   641,998    13.8x    1.8%   27  The FLYING Tesla Roadster explained by the man who engineered it — Hagerty
+                                                    https://www.youtube.com/watch?v=22rvpUecLts
+  80   7/10 18,339,264   764,136     3.5x    1.5%   19  Peptides Are Insane — Jeff Nippard
+                                                    https://www.youtube.com/watch?v=H6SiAe-VObA
+  72   9/10 12,096,136 1,209,614     1.3x    1.2%   35  The Insane Engineering of Fiber Optics — Veritasium
+                                                    https://www.youtube.com/watch?v=NiCgcUTL9_Q
+  71   8/10  2,054,137   205,414    41.9x    0.9%   19  Vsauce Explains Why Torque is THE Scientific Mystery — More Alex O'Connor
+                                                    https://www.youtube.com/watch?v=JMiUmAAP7tg
+  67   8/10  8,999,929   409,088     2.4x    0.9%   18  The Sun Is Weirder Than You Think — Cleo Abram
+                                                    https://www.youtube.com/watch?v=eNkxTjirY-Q
+  50   8/10  3,440,741   110,992     2.9x    0.6%   26  When Earth Had Supermountains — Mr. Science
+                                                    https://www.youtube.com/watch?v=DUUFOGhMhVQ
+  49   7/10  2,022,221    67,407     3.2x    1.0%   20  Astrobiologist Answers Mars Questions — WIRED
+                                                    https://www.youtube.com/watch?v=LFt5CwsZNK8
+  48   7/10  2,417,282   161,152     1.4x    0.9%   32  Physics Nobel Prize 2026 (Ice Cube Neutrino Discovery) — GYRUS SULCUS
+                                                    https://www.youtube.com/watch?v=Cyj7slWWtqk
+  46   8/10  1,981,140    76,198     1.2x    1.8%   44  INSIDE a Nuclear Reactor Core - Smarter Every Day 317 — SmarterEveryDay
+                                                    https://www.youtube.com/watch?v=pXypQ6d_iDg
+  46   8/10  1,412,151    45,553    13.7x    0.5%   14  Every Black Hole That Shouldn’t Exist Explained in 14 Minutes — Bluntly Explained
+                                                    https://www.youtube.com/watch?v=NnY1Blo0f-g
+  46   7/10  1,468,784   122,399     0.9x    1.7%   78  Why We Haven’t Reached Superintelligence, with David Krakauer — StarTalk
+                                                    https://www.youtube.com/watch?v=bcpQkvBCACw
+  41   7/10  2,085,841    69,528     1.3x    1.2%   50  Why Do We Exist? With Hakeem Oluseyi — StarTalk
+                                                    https://www.youtube.com/watch?v=r5KmXSLFK7c
+  61 ✗ 5/10  8,465,839   403,135     5.3x    0.7%   21  Did AI Solve One of Math’s Hardest Problems? — StarTalk
+                                                    https://www.youtube.com/watch?v=s7KhLuc3Mck
+  59 ✗ 6/10  4,882,271   375,559     3.1x    0.8%   19  The Biggest El Niño in Recorded History — StarTalk
+                                                    https://www.youtube.com/watch?v=mgPN8B-B7tg
+  49 ✗ 4/10  2,374,623   296,828     1.2x    2.2%   29  Neil deGrasse Tyson | Hot Ones Game Night — First We Feast
+                                                    https://www.youtube.com/watch?v=feiF4mTzfsU
+  42 ✗ 5/10  1,719,124   107,445     1.9x    1.0%  151  Memory Scientist’s Guide To Building A 100X Sharper Brain | Nikolay Kukushkin | FO571 Raj Shamani — Raj Shamani
+                                                    https://www.youtube.com/watch?v=vNvCQpGYdLo
+  41 ✗ 6/10  1,410,418    56,417     2.4x    1.3%   55  The Importance Of "Soft Fascination" — The Rest Is Science
+                                                    https://www.youtube.com/watch?v=7sJLgNxGWu8
+  40 ✗ 3/10  2,846,498   218,961     1.7x    0.9%   17  Nobel Prize 2026 in Physiology or Medicine: Optogenetics ( by Dharmendra sir) — GYRUS SULCUS
+                                                    https://www.youtube.com/watch?v=GmgJsQqjlyo

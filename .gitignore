@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.env
+credentials/
+output/
+data/
+work/
+tools/
+music/*/
+music/credits.json
+# Por canal se versiona channel.toml; la sesión de YouTube y el estado son locales.
+channels/*/token.json
+channels/*/state.json
+channels/*/youtube.json

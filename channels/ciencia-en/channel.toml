@@ -1,0 +1,109 @@
+# Canal «science_clips_office» — configuración de editoruploader.
+# Edita lo que quieras; los cambios se aplican en la siguiente ejecución.
+
+name = "science_clips_office"
+# Temática del canal: el LLM solo elige momentos que encajen con ella.
+niche = "Cosas entretenida de ciencia"
+# Idioma de títulos y descripciones (es = español, en = inglés, pt = portugués, fr = francés, it = italiano, de = alemán).
+# Los subtítulos van siempre en el idioma en que se habla en el vídeo.
+language = "en"
+
+[sources]
+# viral: antes de elegir, analiza lo que más está funcionando en la temática (búsquedas ordenadas
+# por visitas, rendimiento frente a los suscriptores del canal, participación) y coge de ahí;
+# deja el ranking en channels/ciencia-en/viral.txt. latest: lo más reciente de las fuentes.
+mode = "viral"
+# Ventana del análisis viral: week, month, year o any.
+period = "month"
+# De dónde salen los vídeos largos. En cada ejecución se cogen los más recientes que aún
+# no se hayan procesado. Canales («https://www.youtube.com/@canal»), playlists o vídeos sueltos.
+urls = ["https://www.youtube.com/@RoyalSociety"]
+# Búsquedas en YouTube (con only_creative_commons, solo devuelve vídeos Creative Commons).
+searches = ["Royal Society lecture", "astronomy talk", "science explained documentary", "physics explained", "science podcast"]
+# Vídeos largos nuevos a procesar en cada ejecución (cada uno da varios Shorts).
+videos_per_run = 1
+# Duración de los vídeos fuente, en minutos.
+min_minutes = 10
+max_minutes = 240
+# Idiomas que se hablan en los vídeos fuente (los subtítulos van en ese idioma).
+# Vacío = cualquiera. Se comprueba antes de descargar y otra vez al transcribir.
+languages = ["en"]
+# Solo vídeos con licencia Creative Commons (YouTube permite reutilizarlos citando al autor;
+# la cita se añade sola a la descripción). Ponlo a false SOLO si tienes permiso de las fuentes
+# (contenido propio, creadores que permiten clips…): resubir vídeos ajenos sin permiso trae
+# reclamaciones de Content ID y avisos de copyright que pueden cerrar el canal.
+only_creative_commons = false
+# Se descartan los vídeos cuyo título o canal contengan alguna de estas palabras. Sirve para
+# evitar resubidas de contenido de cadenas o estudios mal etiquetadas como Creative Commons.
+exclude = ["National Geographic", "BBC", "Discovery Channel", "History Channel", "Netflix", "HBO", "Disney", "full movie", "película completa", "pelicula completa", "reupload", "re-upload"]
+
+[clips]
+# Shorts por vídeo largo; 0 = automático (uno cada 8 minutos, entre 3 y 20).
+per_video = 0
+# Duración de cada Short, en segundos (YouTube admite hasta 180).
+min_seconds = 60
+max_seconds = 90
+# Nota mínima (0-100) para aceptar un fragmento.
+min_score = 55
+# Qué momentos buscar y cuáles evitar en esta temática (se le dice al LLM).
+focus = "Moments with surprising facts or visual experiments that spark curiosity."
+avoid = "Long explanations or technical jargon without visual context."
+
+[edit]
+captions = true
+# Fuentes incluidas: Poppins ExtraBold, Anton, Bebas Neue, Archivo Black, Luckiest Guy, Bangers, Permanent Marker (o cualquier .ttf que pongas en tools/fonts/).
+font = "Luckiest Guy"
+font_size = 100
+text_color = "#FFFFFF"
+# Color de la palabra que suena en cada momento.
+highlight_color = "#FFD700"
+outline_color = "#000000"
+uppercase = true
+words_per_line = 3
+# Altura de los subtítulos: 0.1 = arriba, 0.95 = abajo.
+position = 0.68
+# Texto gancho arriba durante los primeros segundos.
+hook = true
+hook_seconds = 3.0
+music = true
+# Volumen de la música en LUFS (la voz va a -14): -22 más presente, -30 muy suave.
+# Además baja sola mientras alguien habla.
+music_volume = -26
+# Ambientes de música permitidos (energetic, funny, chill, emotional, tense, inspiring); vacío = el LLM elige entre todos.
+music_moods = ["chill", "funny", "inspiring"]
+# El vídeo siempre ocupa toda la pantalla vertical. auto: sigue a quien habla o, si no hay caras,
+# lo más importante de la imagen (y corta en los cambios de plano); center: recorte central fijo.
+layout = "auto"
+# Montaje. story: empieza con la frase más fuerte como gancho y monta varios tramos que cuentan
+# una historia; jump_cuts: quita silencios; zoom_effects: zoom de golpe en los cortes y acercamiento
+# lento; transitions: destello y «whoosh» entre partes; progress_bar: barra de progreso arriba.
+story = true
+jump_cuts = true
+zoom_effects = true
+transitions = true
+progress_bar = true
+# Color de las palabras clave en los subtítulos.
+keyword_color = "#00E5FF"
+
+[upload]
+# false = solo genera los Shorts en output/ciencia-en/ y no sube nada.
+enabled = true
+# private | unlisted | public. En privado puedes revisarlos en YouTube Studio antes de publicar.
+privacy = "private"
+# Categoría de YouTube: 1 = Cine y animación, 2 = Motor, 10 = Música, 15 = Mascotas y animales, 17 = Deportes, 19 = Viajes, 20 = Videojuegos, 22 = Personas y blogs, 23 = Comedia, 24 = Entretenimiento, 25 = Noticias y política, 26 = Consejos y estilo, 27 = Educación, 28 = Ciencia y tecnología
+category_id = "27"
+tags = ["science", "funnyfacts", "scienceexperiments", "sciencevideos", "sciencefun", "sciencefacts", "scienceclips", "sciencevideos"]
+# Máximo de Shorts que se suben al día a este canal (el resto espera a la siguiente ejecución).
+# Ojo: el límite de la API es de 100 subidas al día para TODOS los canales juntos.
+max_per_day = 10
+# Marcadores: {title} {description} {source_title} {source_channel} {source_url}
+# {music_credit} {channel_name}. Si quitas la fuente o el crédito musical, se añaden solos
+# al final cuando la licencia (Creative Commons) lo exige.
+description = """{description}
+
+Source: "{source_title}" by {source_channel}
+{source_url}
+
+{music_credit}
+
+#Shorts"""

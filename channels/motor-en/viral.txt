@@ -1,0 +1,38 @@
+Lo más viral para «motor_office» (Clips entretenidos del mundo del motor) — 2026-10-22
+Búsquedas: car review; racing driver interview; motorsport documentary; car history documentary; Top 10 car myths debunked by experts; Racing legends share their craziest stories; Inside the mind of a Formula 1 engineer; How Tesla is changing the automotive industry; The truth behind car tuning and modifications; Car vs. motorcycle: who wins in real life?; The most dangerous car crash videos ever filmed; How to build a supercar from scratch
+
+nota = 70 % viralidad (visitas/día, visitas frente a suscriptores, participación) + 30 % encaje con la temática; se descartan los de encaje < 7/10.
+
+nota  tema   visitas   vis/día  ×canal  partic.  min  título — canal   (×canal = visitas / mediana de su canal)
+  82   7/10  7,266,651 1,211,108     8.8x    2.3%   23  Roadster Event — Tesla
+                                                    https://www.youtube.com/watch?v=qt5p-_tE8d0
+  76   9/10  3,897,112   649,519   847.2x    0.7%   22  All New 2028 Tesla Roadster can Fly - World Premiere and First Look — REC Anything
+                                                    https://www.youtube.com/watch?v=d2jH2x1HWxE
+  74   9/10  2,484,803   414,134     3.0x    1.5%   49  New Tesla Roadster: 330mph, Sub-1sec 0-60mph & It Flies! | 4K — Top Gear
+                                                    https://www.youtube.com/watch?v=JdkIOhFmbKI
+  71   7/10 11,913,342 2,382,668     1.4x    1.9%   23  The NEW Tesla Roadster: My Honest Reaction — Marques Brownlee
+                                                    https://www.youtube.com/watch?v=scwlR0QHGOk
+  71   8/10  9,903,123 1,650,520       ?    1.1%   10  Tesla's Flying Roadster Revealed: Everything That Happened in 10 Minutes — CNET
+                                                    https://www.youtube.com/watch?v=TWHXrLzUKJc
+  70   8/10  3,800,022   253,335     1.7x    2.1%   17  New Jaguar Type 01: My HONEST take… — carwow
+                                                    https://www.youtube.com/watch?v=u1vwat1V7nM
+  64   9/10 18,724,748   891,655     1.4x    0.7%   20  Max Verstappen Vs 100 Amateur Kart Racers — Red Bull
+                                                    https://www.youtube.com/watch?v=7GIULwETan4
+  57   8/10  2,141,907    93,126     7.6x    2.9%   38  We asked Max Verstappen what F1 fans REALLY want to know — P1 with Matt & Tommy
+                                                    https://www.youtube.com/watch?v=2STbBGT1nZ8
+  54   8/10  3,390,083   154,095     1.5x    1.1%   14  New 3 Series revealed! Did BMW just fix EVERYTHING? — carwow
+                                                    https://www.youtube.com/watch?v=NJJxakiMqgQ
+  50   7/10  2,211,517   245,724       ?    0.0%   12  BMW i3 Review & Q&A | Range, 400 kW Charging & Highway Assistant — ElectricTwins
+                                                    https://www.youtube.com/watch?v=NqbkMIhVKTU
+  50   9/10  1,948,015   162,335     0.8x    1.5%   21  Can the NEW Porsche Cayenne HUMILIATE a 911 Turbo S? DRAG RACE — carwow
+                                                    https://www.youtube.com/watch?v=msBq5n2F1rU
+  47   9/10  2,333,174   122,799     1.0x    1.8%   23  Countach v Diablo v Murcielago v Miura v Aventador v Revuelto: Lamborghini DRAG RACE — carwow
+                                                    https://www.youtube.com/watch?v=_MJOtzSZk4w
+  40   7/10  1,907,928   190,793     0.8x    1.0%   18  Has Toyota forgotten how to build cars? New RAV4 Review — carwow
+                                                    https://www.youtube.com/watch?v=MqxreHAbytY
+  39   8/10  2,715,160    93,626     1.2x    1.3%   21  New Bentley Torcal: WHAT have they done? — carwow
+                                                    https://www.youtube.com/watch?v=yQJrqsVDuHA
+  37   7/10  3,188,110   102,842     1.4x    0.8%   21  The Kia PV5 proves SUVs are POINTLESS! — carwow
+                                                    https://www.youtube.com/watch?v=Ou70y_ErBGY
+  53 ✗ 6/10  2,017,312   126,082    46.9x    0.9%   23  Engineers Tore Down a BYD — What They Found Should Terrify Britain's Carmakers — The Sleeper List
+                                                    https://www.youtube.com/watch?v=Nim61oVLdwk
